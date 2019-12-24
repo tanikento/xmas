@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Xmas</title>
+    <script>
+      let xmas = function(){
+        console.log('%cMerry Christmas!', 'background: #ffffe0; color: #ff0000; font-size: 120px; font-weight: bold; text-stroke: 3px #3eb370; -webkit-text-stroke: 3px #3eb370; padding: 50px;');
+      }
+    </script>
+    <style>
+      .box {
+        text-algin: center;
+      }
+      .btn {
+        border: none;
+        background: #ff0000;
+        height: 100px;
+        width: 300px;
+        color: #fff;
+        font-size: 50px;
+        font-weight: bold;
+        margin: 100px;
+        box-shadow: 0px 0px 2px #ccc;
+      }
+      
+      .btn:hover {
+        opacity: 0.8;
+        transform: translateY(-1px);
+        box-shadow: 0px 0px 8px #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>一人寂しくクリスマスを過ごすデベロッパーに捧げます</h1>
+      <p>Chrome DevTools を開いて下のボタンを押してみて！<p>
+      <input class="btn" type="button" value="Push!" onclick="xmas()" />
+    </div>
+  </body>
+</html>
